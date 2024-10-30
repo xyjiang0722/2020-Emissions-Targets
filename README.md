@@ -12,11 +12,11 @@ Jiang, X., Kim, S., Lu, S. Limited Accountability and Awareness in Corporate Emi
 
 `1_combine_data` - Codes for merging the data to construct final datasets and cleaning additional data based on the merged data
 
-`2_figures` - Codes for creating the descriptive figures and plotting the results from econometric models in the paper
+`2_figures` - Codes for creating the figures and plotting the coefficients from regression models in the paper
 
-`3_tables` - Codes for creating the descriptive tables and outputting regression results
+`3_tables` - Codes for creating the tables and outputting regression results
 
-`4_misc` - Codes for producing additional back-of-envelop calculations for the paper
+`4_misc` - Codes for producing additional calculations for the paper
 
 The analysis in the paper proceeds in **five steps** following the code, which is reflected in `master.do`. 
 
