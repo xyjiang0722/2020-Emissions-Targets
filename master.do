@@ -17,15 +17,15 @@ cd "."
 
 
 // These files clean the raw data
-do code/0_clean_data/0.1_clean_CDP_summary.do
-do code/0_clean_data/0.2_clean_CDP_targets.do
-do code/0_clean_data/0.3_clean_CDP_initiatives.do
-do code/0_clean_data/0.4_clean_CDP_ghgreduction.do
-do code/0_clean_data/0.5_clean_CDP_incentives.do
-do code/0_clean_data/0.6_clean_CDP_ghgreduction_split.do
-do code/0_clean_data/0.7_clean_Datastream_variables.do
-do code/0_clean_data/0.8_clean_MSCI.do
-do code/0_clean_data/0.9_clean_TruValue.do
+do code/0_clean_data/0.01_clean_CDP_summary.do
+do code/0_clean_data/0.02_clean_CDP_targets.do
+do code/0_clean_data/0.03_clean_CDP_initiatives.do
+do code/0_clean_data/0.04_clean_CDP_ghgreduction.do
+do code/0_clean_data/0.05_clean_CDP_incentives.do
+do code/0_clean_data/0.06_clean_CDP_ghgreduction_split.do
+do code/0_clean_data/0.07_clean_Datastream_variables.do
+do code/0_clean_data/0.08_clean_MSCI.do
+do code/0_clean_data/0.09_clean_TruValue.do
 do code/0_clean_data/0.10_clean_shareholder_proposals.do
 do code/0_clean_data/0.11_clean_institutional_variations.do
 do code/0_clean_data/0.12_clean_target_ambition_split.do
@@ -45,27 +45,28 @@ do code/2_figures/2.2_Figure_2.do
 do code/2_figures/2.3.1_Figure_3.do
 do code/2_figures/2.4.1_Figure_4.do
 do code/2_figures/2.5.1_Figure_5.do
-do code/2_figures/2.6_Figure_S1.do
-do code/2_figures/2.7_Figure_EX1.do
+do code/2_figures/2.6_Figure_EX1.do
+do code/2_figures/2.7_Figure_S1.do
 
 
 // These files produce the tables and output regression results
-do code/3_tables/3.1_Table_1.do
-do code/3_tables/3.2_Table_S2.do
-do code/3_tables/3.3_Table_S3.do
-do code/3_tables/3.4_Table_S4.do
-do code/3_tables/3.5_Table_S5.do
-do code/3_tables/3.6_Table_S6.do
-do code/3_tables/3.7_Table_S7.do
-do code/3_tables/3.8_Table_S8.do
-do code/3_tables/3.9_Table_S9.do
-do code/3_tables/3.10_Table_S10.do
-do code/3_tables/3.11_Table_S11.do
-do code/3_tables/3.12_Table_S12.do
-do code/3_tables/3.13_Table_EX2.do
-do code/3_tables/3.14_Table_EX3.do
-do code/3_tables/3.15_Table_EX4.do
-do code/3_tables/3.16_Table_EX5.do
+do code/3_tables/3.01_Table_1.do
+do code/3_tables/3.02_Table_EX1.do
+do code/3_tables/3.03_Table_EX2.do
+do code/3_tables/3.04_Table_EX3.do
+do code/3_tables/3.05_Table_EX4.do
+do code/3_tables/3.06_Table_S2.do
+do code/3_tables/3.07_Table_S3.do
+do code/3_tables/3.08_Table_S4.do
+do code/3_tables/3.09_Table_S5.do
+do code/3_tables/3.10_Table_S6.do
+do code/3_tables/3.11_Table_S7.do
+do code/3_tables/3.12_Table_S8.do
+do code/3_tables/3.13_Table_S9.do
+do code/3_tables/3.14_Table_S10.do
+do code/3_tables/3.15_Table_S11.do
+do code/3_tables/3.16_Table_S12.do
+
 
 
 // This file produces additional calculations
